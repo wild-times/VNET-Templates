@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    /* border: 5px solid blue; */
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #E5E1E1;
+}
+
+.main {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0 0 20px 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #680768;
+    padding: 0 20px 0 20px;
+}
+
+.vnet_logo {
+    width: auto;
+    height: 40px;
+}
+
+.navbar_userDetails,
+.navbar_userDetails_text,
+.navbar_userDetails_avatar{
+    display: flex;
+}
+
+.navbar_userDetails {
+    width: 500px;
+    height: 60px;
+}
+
+.navbar_userDetails_text {
+    /* border: 1px dashed yellow; */
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    padding: 0;
+}
+
+.navbar_userDetails_username,
+.navbar_userDetails_email {
+    display: flex;
+    justify-content: flex-end;
+    color: #FFFFFF;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_userDetails_username {
+    font-weight: bold;
+}
+
+.navbar_userDetails_email {
+    /* border: 1px solid blue; */
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navbar_userDetails_avatar {
+    width: 60px;
+    height: 100%;
+    border-radius: 40%;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.avatar_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+}
+
+
+.meeting_preview_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px 100px;
+}
+
+.camera_check {
+    flex: 0.6;
+    margin-right: 20px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video_box {
+    height: 65%;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #432943;
+    margin-bottom: 25px;
+}
+
+.cam_and_video_buttons {
+    height: 60px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cam_mic_icons {
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #432943;
+    color: white;
+    cursor: pointer;
+}
+
+.icons_off {
+    display: none;
+}
+
+.cam_mic_icons:hover {
+    background-color: #4e304e;
+}
+
+.user_ready {
+    flex: 0.3;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.user_ready_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 5px 0 5px;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.user_ready_details > p {
+    font-size: 30px;
+    color: #5A035A;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.buttons_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 80%;
+    height: 30%;
+}
+
+.buttons_div > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: fit-content;
+    background-color: #5A035A;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    flex: 0.18;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    height: fit-content;
+    padding: 10px 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #680768;
+}
+
+button:active {
+    background-color: #330033;
+}
+
+
+
+
+
+
