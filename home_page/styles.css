@@ -2,7 +2,7 @@
 
 body{
 	box-sizing: border-box;
-	background-image: url("/images/back.jpeg");
+	background-image: url("/Images/back.jpeg");
 	font-family: 'Nunito', sans-serif;
 	margin: 0;
 	width: 100%;
@@ -12,6 +12,7 @@ body{
 button {
 	border: 1px solid transparent;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 .main{
@@ -33,30 +34,24 @@ button {
 	justify-content: space-around;
 	color: #330033;
 }
-.signin{
-	/*margin-left: 800px;*/
-	padding-right: 10px;
+
+.signin, .signup{
+	font-weight: 600;
+	color: #330033;
 	background-color:whitesmoke;
 	width: 150;
 	height: 50;
-    border-radius: 50px;
+	border-radius: 50px;
 }
-.signintext{
-	color: black;
-	font-weight: bold;
-	text-align: center;
+
+.signin:hover, .signup:hover, .getstarted:hover {
+	background-color: rgb(228, 227, 227);
 }
-.signup{
-	background-color:whitesmoke;
-	width: 150;
-	height: 50;
-    border-radius: 50px;
+
+.signin:active, .signup:active, .getstarted:active {
+	background-color: rgb(192, 191, 191);
 }
-.signuptext{
-	color: black;
-	font-weight: bold;
-	text-align: center;
-}
+
 .text{
 	width: 100%;
 	background-color: transparent;	
@@ -104,6 +99,10 @@ button {
 	width: 100px;
 }
 
+.fb, .twitter {
+	cursor: pointer;
+}
+
 .fb{
 	bottom: 10px;
 }
@@ -119,25 +118,3 @@ button {
 	bottom: 10px;
 	padding-right: 50px;
 }
-/*.gradbox{
-    width: 840px;
-    height: 480px;
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
-    opacity: 1;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    overflow: hidden;*/
-}
-/*.getstarted{
-	background-color:whitesmoke;
-	width: 300;
-	height: 50;
-	border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    text-align: center;
-    margin: auto;
-}*/
