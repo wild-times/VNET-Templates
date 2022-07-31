@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VNET</title>
+        <link rel="stylesheet" href="../navbar/index.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+
+    <body>
+
+        <div class="main">
+            <!-- NavBar -->
+            <div class="navbar">
+                <img src="/Images/vnet_logo.png" alt="Logo for VNET" class="navbar_vnet_logo">
+
+                <div class="navbar_userDetails">
+                    <div class="navbar_userDetails_text">
+                        <p class="navbar_userDetails_username">Shei Savage</p>
+                        <span class="navbar_userDetails_email">sheisavage2052@outlook.com</span>
+                    </div>
+
+                    <div class="navbar_userDetails_avatar">
+                        <img src="/Images/avatar_main.jpg" alt="user_avatar" class="navbar_avatar_img">
+                    </div>
+                </div>
+            </div>
+            <!-- End of NavBar-->
+
+            <!-- CONTENT GOES HERE -->
+
+            <div class="create-innerbox">
+                <div class="create-topbox">
+                    <h1>Create Meeting</h1>
+                </div>
+
+                <form id="create-meeting-form">
+                    <!-- Title -->
+                    <div>
+                        <label for="meeting-title-input">Meeting title</label>
+                        <input required type="text" name="title" id="meeting-title-input" placeholder="Meeting discussion..." />
+                    </div>
+
+                    <!-- Meeting notes -->
+                    <div>
+                        <label for="notes-input">Meeting notes</label>
+                        <textarea required name="notes" id="notes-input" cols="30" rows="5" placeholder="Some notes for what the meeting is about"></textarea>
+                    </div>
+
+                    <div class="create-meeting-time">
+                        <!-- Start time -->
+                        <div>
+                            <label for="start-time-input">Choose a start time</label>
+                            <input type="datetime-local" required name="start-time" id="start-time-input">
+                        </div>
+
+                        <!-- End time -->
+                        <div>
+                            <label for="end-time-input">Choose an end time</label>
+                            <input type="datetime-local" required name="end-time" id="end-time-input">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="form-btns">
+                        <div class="create-form-bt">
+                            <input type="submit" value="Create" class="wild-buttons">
+                        </div>
+                        <div class="create-form-bt">
+                            <a href="#" class="wild-buttons">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <!-- CONTENT ENDS HERE -->
+
+        </div>
+
+        <!-- Links for ions or something IDK-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

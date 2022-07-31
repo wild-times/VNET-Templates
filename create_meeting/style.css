@@ -28,7 +28,7 @@ button {
     opacity: 1;
 }
 .navbar {
-	margin: auto;
+	/*margin: auto;*/
 	background-image: url("/images/back.jpeg");
 	height: 10%;
 	width: 100%;
@@ -47,7 +47,7 @@ button {
 	text-align: center;
 	margin: auto;
 	color: white;
-	background-image: url("./images/back.jpeg");
+	background-image: url("/Images/back.jpeg");
 	width: 90%;
 	height: 10%;
     border-radius: 50px 50px 10px 10px;
