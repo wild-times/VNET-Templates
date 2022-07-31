@@ -19,21 +19,17 @@ button {
 	margin: auto;
 	width: 60%;
 	height: 70%;
-	background-color: white;
-	/*display: flex;*/
+    /*display: flex;*/
 /*	justify-content: space-between;*/
 	/*justify-content: center;*/
 /*	margin-bottom: 100px;*/
-	border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 10px;
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+    border-radius: 30px 30px 10px 30px;
+    background: white linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     opacity: 1;
 }
 .navbar {
 	margin: auto;
-	background-image: url("./images/back.jpeg");
+	background-image: url("/images/back.jpeg");
 	height: 10%;
 	width: 100%;
 	display: flex;
@@ -51,13 +47,10 @@ button {
 	text-align: center;
 	margin: auto;
 	color: white;
-	background-image: url("./images/back.jpeg");
+	background-image: url("/images/back.jpeg");
 	width: 90%;
 	height: 10%;
-	border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 50px 50px 10px 10px;
 }
 .formdiv{
 	margin-top: 20px;
@@ -106,10 +99,7 @@ input{
 	background-color:#330033;
 	width: 150px;
 	height: 40px;
-	border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
     /*margin-bottom: 30px;
     display: flex;  
 	justify-content: center;  
@@ -124,10 +114,7 @@ input{
 	background-color:#330033;
 	width: 150px;
 	height: 40px;
-	border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
     margin-bottom: 30px;
     display: flex;  
 	justify-content: center;  
@@ -139,10 +126,7 @@ input{
 	background-color:#330033;
 	width: 150px;
 	height: 40px;
-	border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
     margin-bottom: 30px;
     display: flex;  
 	justify-content: center;  
@@ -157,14 +141,14 @@ input{
 }
 
 
-.VNET2022{
-	font-size: 20px;
-	color: rgb(38, 255, 3);
-	margin: auto;
-	right: 0%;
-	bottom: 10px;
-	padding-right: 50px;
-
+.VNET2022 {
+    font-size: 20px;
+    color: rgb(38, 255, 3);
+    margin: auto;
+    right: 0%;
+    bottom: 10px;
+    padding-right: 50px;
+}
 	/* Rectangle 84 */
 
 
