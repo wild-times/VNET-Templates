@@ -56,10 +56,21 @@ a.wild-buttons {
 input[type=text] {
     border: 2px solid darkcyan;
     border-radius: 0.4em;
+    display: block;
+    width: 90%;
+    height: 3em;
+    transition: 0.3s;
+    padding: 1.2em 2em;
+    box-sizing: border-box;
 }
 
 input[type=text]:focus {
     border: 2px solid #330033;
+}
+
+input[type=text]::placeholder {
+    color: darkcyan;
+    font-size: 1.2em;
 }
 
 /* The Modal (background) */
