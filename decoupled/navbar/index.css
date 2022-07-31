@@ -108,6 +108,30 @@ input[type="datetime-local"]:focus {
     -moz-box-shadow: none;
 }
 
+select {
+    border: 2px solid darkcyan;
+    border-radius: 0.4em;
+    display: block;
+    width: 90%;
+    height: 3em;
+    transition: 0.3s;
+    padding: 0.3em 2em;
+    box-sizing: border-box;
+    background: #E5E1E1;
+}
+
+select:focus {
+    border: 2px solid #330033;
+}
+
+.alert {
+    padding: 2em;
+    background-color: #cce5ff;
+    color: black;
+    margin-bottom: 2em;
+    border-radius: 0.2em;
+}
+
 /* The Modal (background) */
 .vnet-modal {
     display: none; /* Hidden by default */
