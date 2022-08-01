@@ -3,7 +3,6 @@
 body {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    /* border: 5px solid blue; */
     margin: 0;
     padding: 0;
     min-width: 100vw;
@@ -12,7 +11,6 @@ body {
 }
 
 .main {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -46,7 +44,6 @@ body {
 }
 
 .navbar_userDetails_text {
-    /* border: 1px dashed yellow; */
     flex: 1;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +66,6 @@ body {
 }
 
 .navbar_userDetails_email {
-    /* border: 1px solid blue; */
     font-weight: 500;
     font-size: 12px;
 }
@@ -88,9 +84,7 @@ body {
     border-radius: 40%;
 }
 
-/* ---> Problems begin here */
 .profilePage_main {
-    /* border: 5px solid blue; */
     border: 1px solid transparent;
     height: 76vh;
     width: 80vw;
@@ -120,7 +114,6 @@ body {
     display: flex;
     align-items: center;
     height: 40px;
-    /* border: 1px dashed blue; */
 }
 
 ion-icon {
@@ -156,7 +149,6 @@ ion-icon {
     display: flex;
     flex-wrap: wrap;
     background: url("../Images/Background_Image.png") repeat-x;
-    /* background-repeat: repeat-x; */
     filter: contrast(120%);
     filter: saturate(130%);
     filter: brightness(200%);
@@ -206,120 +198,17 @@ ion-icon {
     margin-top: 20px;
 }
 
-.email_div,
-.joinMeeting_div,
-.newMeeting_div {
+.user_details_sub_div {
     padding-right: 1rem;
     display: flex;
-}
-
-.email_div {
     align-items: center;
-    color: #330033;
 }
 
-/* .email_div > p,  */
-.email_div > span {
-    font-weight: bold;
-}
-
-.email_div > span,
-.joinMeeting_div > span,
-.newMeeting_div > span {
+.user_details_sub_div > span {
     width: 25%;
     font-weight: bold;
     color: #330033;
 }
-
-.joinMeeting_div,
-.newMeeting_div {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-}
-
-.joinMeeting_sub_div {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-}
-
-.joinMeeting_sub_div > input {
-    flex: 0.7;
-    height: 1.7rem;
-    font-size: 0.9rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid lightgray;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    color: #330033;
-    background: #F4EDF4;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.25), inset 0px 0px 1px 2px rgba(0, 0, 0, 0.25);
-}
-
-.joinMeeting_sub_div > input::placeholder {
-    color: #330033;
-}
-
-.joinMeeting_sub_div > input:active {
-    outline: 0;
-}
-
-.joinMeeting_sub_div > input:focus {
-    outline: none;
-}
-
-.joinMeeting_sub_div > button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #5A035A;
-    color: #FFFFFF;
-    border: 1px solid transparent;
-    flex: 0.18;
-    border-radius: 50px;
-    font-size: 15px;
-}
-
-.meeting_buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-}
-
-.meeting_buttons > button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    min-width: 200px;
-    background-color: #5A035A;
-    color: #FFFFFF;
-    border: 1px solid transparent;
-    flex: 0.18;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: 500;
-    height: fit-content;
-    padding: 10px;
-}
-
-button {
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #680768;
-}
-
-button:active {
-    background-color: #330033;
-}
-
-
 
 
 
