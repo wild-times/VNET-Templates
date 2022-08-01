@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VNET</title>
+        <link rel="stylesheet" href="/decoupled/main/index.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+
+    <body>
+
+        <div class="main">
+            <!-- CONTENT GOES HERE -->
+
+            <div class="meeting_page_main">
+                <div class="meeting_space">
+                    <div class="meeting-details">
+                        <div class="meeting-details-content">
+                            <h2>This is meeting title</h2>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda delectus in molestiae nam quasi ratione rem reprehenderit sint tempora! Autem cum dolorum, exercitationem facere in iste magni nihil quia!</p>
+                            <hr>
+                            <span>Code: dw3rEsafrsAEe-</span>
+                            <hr>
+                            <span>Host: shei</span>
+                            <hr>
+                            <span>Participants: 6</span>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="people_div">
+                        <div class="person_space"></div>
+                        <div class="person_space"></div>
+                        <div class="person_space"></div>
+                        <div class="person_space"></div>
+                        <div class="person_space"></div>
+                        <div class="person_space"></div>
+                    </div>
+                </div>
+
+                <section class="meeting_actions">
+                    <div class="meeting_actions_options">
+                        <button class="meeting_actions_btn" onclick="openModal('host-peer')">Share with peer</button>
+                        <button class="meeting_actions_btn" onclick="openModal('receive-peer')">Receive from peer</button>
+                        <button class="meeting_actions_btn">Leave Call</button>
+                    </div>
+
+                    <!-- Share with peer -->
+                    <div class="vnet-modal" id="host-peer">
+                        <div class="vnet-modal-content peer-modal">
+                            <div class="vnet-modal-header">
+                                <span onclick="closeModal('host-peer')" class="vnet-modal-close">&times;</span>
+                                <h2>Share with peer</h2>
+                            </div>
+                            <div class="vnet-modal-body">
+                                <p>Share the code below with the peer you wish to connect to</p>
+                                <span>723424</span>
+                            </div>
+                            <div class="vnet-modal-footer">
+                                <h3>Not connected to peer server</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Receive from peer -->
+                    <div class="vnet-modal" id="receive-peer">
+                        <div class="vnet-modal-content peer-modal">
+                            <div class="vnet-modal-header">
+                                <span onclick="closeModal('receive-peer')" class="vnet-modal-close">&times;</span>
+                                <h2>Receive from peer</h2>
+                            </div>
+                            <div class="vnet-modal-body">
+                                <p>Enter the code from the peer you wish to connect to</p>
+                                <form>
+                                    <div class="code-peer">
+                                        <label for="code-input">Code</label>
+                                        <input type="number" name="code" id="code-input" placeholder="Enter code from peer" />
+                                    </div>
+                                    <div class="code-peer-submit">
+                                        <input type="submit" value="Connect" class="wild-buttons">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="vnet-modal-footer">
+                                <h3>Not connected to peer server</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- CONTENT ENDS HERE -->
+        </div>
+
+        <script>
+            function openModal (modalId) {
+                const modal = document.getElementById(modalId);
+                modal.style.display = 'block';
+            }
+
+            function closeModal (modalId) {
+                const modal = document.getElementById(modalId);
+                modal.style.display = '';
+            }
+        </script>
+
+        <!-- Links for ions or something IDK-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
