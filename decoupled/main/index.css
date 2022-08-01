@@ -53,7 +53,7 @@ a.wild-buttons {
     background-color: #330033;
 }
 
-input[type=text] {
+input[type=text], input[type=email], input[type=password], input[type=number] {
     border: 2px solid darkcyan;
     border-radius: 0.4em;
     display: block;
@@ -64,23 +64,13 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus {
     border: 2px solid #330033;
 }
 
-input[type=text]::placeholder {
+input[type=text]::placeholder, input[type=number]::placeholder, input[type=email]::placeholder, input[type=password]::placeholder {
     color: darkcyan;
     font-size: 1.2em;
-}
-
-/* Removes the clear button from date inputs */
-input[type="datetime-local"]::-webkit-clear-button {
-    display: none;
-}
-
-/* Removes the spin button */
-input[type="datetime-local"]::-webkit-inner-spin-button {
-    display: none;
 }
 
 /* Always display the drop down caret */
