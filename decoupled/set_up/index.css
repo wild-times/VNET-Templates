@@ -27,6 +27,19 @@
     width: 80%;
     background-color: #432943;
     margin: 0.5em auto 2em;
+    position: relative;
+    overflow: hidden;
+}
+
+.stream-name {
+    position: absolute;
+    font-size: 1.7em;
+    height: 8%;
+    width: 100%;
+    color: azure;
+    background-color: grey;
+    bottom: -1em;
+    padding-left: 2em;
 }
 
 .user_ready {
